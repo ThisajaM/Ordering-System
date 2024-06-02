@@ -1,0 +1,76 @@
+<html>
+<head>
+    <script type="Text/javascript" src="Validate.js"></script>
+    <link rel= "stylesheet" type="text/css" href="Style.css">
+    <title>Create an Account</title>    
+</head>
+<body>
+    <div class="containar">
+        <a href="Home.html">
+        <img src="Embark.jpg" class="logo">
+         </a>
+    </div>
+    <div class="container2"> 
+        <h2>Create your Account</h2>
+        <form  action="CreateAcc.php" method="post" name="CreateAcc" onsubmit="return ValidateCreateAcc()">
+ 
+            <div class="text-box-container">
+            <pre>
+<label for="FName">First Name :                                   </label><label for="LName">Last Name :<br></label></pre>  
+            </div>
+
+            <div class="text-box-container">
+            <input type="text" name="FName" style="width: 246px;"> &nbsp; &nbsp;
+            <input type="text" name="LName" style="width:246px ;">
+            </div>
+
+            <label for="Add">Address :</label>
+            <textarea cols="59" name="Add" rows="4"></textarea>
+
+            <div class="text-box-container">
+            <pre>
+<label for="DOB">Date Of Birth :                                 </label><label for="gender">Gender :</label></pre>
+            </div>
+            
+            <div class="text-box-container">
+            <input type="Date" name="DOB" style="width:246px ;"> &nbsp; &nbsp;
+            <label>
+                <input type="radio" name="gender" value="male"> Male &nbsp; &nbsp;
+                <input type="radio" name="gender" value="female"> Female &nbsp; &nbsp;
+                <input type="radio" name="gender" value="other"> Other
+            </label>
+            </div>
+
+            <div class="text-box-container">
+            <pre>
+<label for="Emale">Email :                                            </label><label for="CNum">Contact Number :</label></pre>
+            </div>
+
+            <div class="text-box-container">
+            <input type="text" name="Email" style="width:246px ;"> &nbsp; &nbsp;
+            <input type="text" name="CNum" placeholder="Enter 10-digit number" style="width:246px ;">
+            </div>
+
+            <label for="UName">Username :</label>
+            <input type="text" name="UName">
+
+            <div class="text-box-container">
+            <pre>
+<label for="Passw">Password :                                     </label><label for="CPassw">Confirm Password :</label></pre>
+            </div>
+
+            <div class="text-box-container">
+            <input type="password" name="Passw" style="width:246px ;" placeholder="Enter 8 characters"> &nbsp; &nbsp;
+            <input type="password" name="CPassw" style="width:246px ;" placeholder="Enter 8 characters">
+            </div>
+
+            <div>
+                <input type="checkbox" id="CheckboxId" name="Checkbox"><label for="CheckboxId"><h>I agree to the terms and conditions</label></div>
+            
+            <button type="submit">GET STARTED</button>
+        </form>
+        <div class="switch-page">
+        Already have an account? <a href="Login.php">Login</a>.
+        </div> 
+</body>
+</html>

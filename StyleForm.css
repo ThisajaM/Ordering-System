@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+.containar
+{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5.9%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+.container2 
+{ 
+    padding: 23px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-size: cover;
+    background-color: #f6f4f4;
+}
+
+.navbar
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.logo
+{
+    width: 200px;
+    cursor: pointer;
+    margin: 25px 0;
+}
+.logo1 {
+    width: 180px;
+    cursor: pointer;
+    margin: 25px auto; 
+    display: block; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav
+{
+    flex: 1;
+    text-align: right ;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px ;
+    margin-left: 25px;
+    margin-top: 27px;
+}
+ul
+{
+    justify-content:right;
+    margin-left: 20px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+nav ul li a:hover
+{
+    color: #fb5283;
+}
+.button1
+{
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background: linear-gradient(to right,#d32f7e,#fb5283);
+}
+.button1:hover
+{
+    color:#fb5283;
+    padding: 10px;
+    width: 100px;
+    border-color:#fb5283;
+    border: 2.5px solid;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background:white;
+}
+.Donate, .Home
+{
+    color: #fb5283;
+}
+h2
+{
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 39px;
+    margin-bottom: 43px;
+}
+label 
+{ 
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+input ,textarea ,select
+{
+    margin-top: 15px;
+    margin-bottom: 16px; 
+    padding: 8px;
+    background-color: #fff;
+    border-color:transparent;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+select
+{
+    height: 34px;
+}
+
+button 
+{
+    color: #fff;
+    margin-top: 8px;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right,#d32f7e,#fb5283);
+    width: 100%;
+}
+button:hover
+{
+    color:#fb5283;
+    margin-top: 8px;
+    padding: 10px;
+    border-color:#fb5283;
+    border: 2.5px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    background:white;
+}
+.text-box-container 
+{
+    display: flex;
+    margin-top: 5px;
+    display: flex;
+    width: 170%;
+}

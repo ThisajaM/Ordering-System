@@ -1,0 +1,293 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+.containar
+{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5.9%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+.container1 
+{
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    max-width: 1267px;
+    width: 100%;
+    margin-right: 205px;
+    box-sizing: border-box;
+    background-position: center;
+    height: 380px;
+    background-image: url('dogBaner\ 3.jpg');
+    background-size: cover;
+    margin-bottom: 35px;
+}
+.navbar
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.logo
+{
+    width: 200px;
+    cursor: pointer;
+    margin: 25px 0;
+}
+.logo1
+{
+    width: 180px;
+    cursor: pointer;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    padding-left: 6%;
+}
+nav
+{
+    flex: 1;
+    text-align: right ;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px ;
+    margin-left: 25px;
+    margin-top: 33px;
+}
+ul
+{
+    justify-content:right;
+    margin-left: 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+nav ul li a:hover
+{
+    color: #fb5283;
+}
+.button1
+{
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background: linear-gradient(to right,#d32f7e,#fb5283);
+}
+.button4
+{
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background: linear-gradient(to right,#d32f7e,#fb5283);
+    margin-left: -35px;
+}
+
+.button2
+{
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background: linear-gradient(to right,#d32f7e,#fb5283);
+    margin-left: 85px;
+}
+.home, .AboutUs
+{
+    color: #fb5283;
+}
+.button1:hover
+{
+    color:#fb5283;
+    padding: 10px;
+    width: 100px;
+    border-color:#fb5283;
+    border: 2.5px solid;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background:white;
+}
+.button4:hover
+{
+    color:#fb5283;
+    padding: 10px;
+    width: 100px;
+    border-color:#fb5283;
+    border: 2.5px solid;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background:white;
+}
+.button2:hover
+{
+    color:#fb5283;
+    padding: 10px;
+    width: 150px;
+    border-color:#fb5283;
+    border: 2.5px solid;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background:white;
+}
+.DonateText
+{
+    margin-left: 85px;
+    margin-bottom: 10px;
+    font-size:65px;
+    color:#d32f7e;
+}
+b
+{
+    font-family: Open-sans;
+}
+.button3
+{
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right,#d32f7e,#fb5283);
+    margin-left: 85px;
+    margin-left: 5% ;
+}
+.button3:hover
+{
+    color:#fb5283;
+    padding: 10px;
+    width: 250px;
+    border-color:#fb5283;
+    border: 2.5px solid;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background:white;
+}
+.content
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-right: 2%;
+    margin-top: -2pc;
+}
+.card
+{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.card:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardImg
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.card-detail
+{
+    padding: 10px;
+}
+h3
+{
+    margin-top: -1.5px;
+    margin-bottom: -17px;
+    font-weight:normal;
+}
+h2
+{
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 43px;
+}
+p
+{
+    margin-left: 30px;
+    font-size: 22px;
+    margin-top: -20px;
+    margin-right: 28px;
+}
+.p1
+{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-top: -9px;
+}
+.logo-3
+{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.logo3
+{
+    width: 12%;
+}
+.logo4
+{
+    margin-top: 5px;
+    width: 12%;
+}
+.logo5
+{
+    width: 7%;
+}
+.socialLink img
+{
+    height: 25px;
+    margin: 20px;
+    cursor: pointer;
+    margin-bottom: -80px;
+}
+.socialLink
+{
+    text-align: center;
+}
+.container
+{
+    color : #fff;
+}
+body
+{
+    background-position: center;
+    background-size: cover;
+}
